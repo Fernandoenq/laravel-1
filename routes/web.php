@@ -17,7 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/act', function () {
+    return view('act');
+});
+
+/*
 Route::get('/hello', function () {
     $soma = 10 + 5;
     return view('hello', compact($soma));
-});
+});*/
